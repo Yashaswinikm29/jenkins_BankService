@@ -28,7 +28,7 @@ public class BankService {
     public static void main(String[] args) {
         BankAccount acc = new BankAccount(1000);
         acc.deposit(5000);
-        acc.withdraw(100);
+        acc.withdraw(1000);
         System.out.println("Final Balance: " + acc.getBalance());
     }
 }
